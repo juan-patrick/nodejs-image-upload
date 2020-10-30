@@ -4,6 +4,8 @@
   "description": "Images upload using S3 AWS server",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon -r dotenv/config src/index.js --ignore tests",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "juan-patrick",
